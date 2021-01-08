@@ -13,3 +13,10 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def loop(statement, num):
+    for i in range(num):
+        print(statement)
+
+
+loop('Hello there', 3)
